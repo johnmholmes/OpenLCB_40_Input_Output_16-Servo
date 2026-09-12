@@ -1,7 +1,9 @@
 # OpenLCB 40_Input_Output_16 Servo
 8 Native IO 32 MCP23017 IO 16  Servo PCA9685
 
-## The sketch has two versions A Can bus Node, and a NoCan standalone version so no can bus commincation between other nodes.
+The sketch is A Can bus Node, it could be used in standalone mode by changing line 18 in the config.h. 
+
+//#define USEGCSERIAL to use uncomment this line and then use the USB connected to JMRI. This does not allow for other nodes to interact with it.
 
 ## Please be advised even though the sketch has other MCU options. It may not compile and work for other than for the ESP32 Devkit 1 version.
 
